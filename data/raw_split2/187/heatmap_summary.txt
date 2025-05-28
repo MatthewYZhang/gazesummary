@@ -1,0 +1,5 @@
+Bioluminescence is the production and emission of light by living organisms, captivating and observed throughout the biological world. Various species use this natural light for purposes from attracting mates to deterring predators.  The chemistry behind it involves a light-emitting reaction catalyzed by an enzyme, where a luciferin reacts with oxygen in the presence of a luciferase. This results in an excited state molecule releasing energy as light.  
+
+In the marine environment, it's prevalent where organisms rely on it for communication, camouflage, and predation, and many species possess photophores for emitting light.  Also on land, it's less widespread but present in fireflies and some fungi, with fireflies using it primarily for mate attraction with unique flashing patterns.
+
+Its evolutionary origins are complex and likely involved independent events and the selective pressures driving it varied depending on the ecological context. Studying bioluminescence has led to applications in biomedical research, environmental monitoring, and forensic science.

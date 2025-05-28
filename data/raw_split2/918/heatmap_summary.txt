@@ -1,0 +1,5 @@
+Decision-making, a pervasive aspect of human life, is a central focus across psychology, economics, and neuroscience. Although rational choice models suggest decisions are logic-based, research shows cognitive biases, emotions, and social influences significantly shape them. 
+
+Cognitive biases, like the availability heuristic and anchoring bias, impact judgment. The availability heuristic causes individuals to overestimate the likelihood of easily recalled events, and the anchoring bias leads people to rely heavily on the first piece of information received.
+
+Emotions play a crucial role in decision-making, with anticipated emotions influencing decisions. Neuroscience research reveals that brain regions like the prefrontal cortex and amygdala are involved in decision-making. Understanding these mechanisms is significant across various domains, including healthcare, finance, and marketing. A deeper understanding of decision-making empowers individuals to make better choices.

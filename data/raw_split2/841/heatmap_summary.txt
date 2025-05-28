@@ -1,0 +1,10 @@
+Paleoclimate proxies are preserved physical, chemical, and biological materials that serve as substitutes for direct measurements of temperature, precipitation, and other climatic variables. They allow scientists to reconstruct climate conditions spanning millions of years, offering insights into long-term climate trends, natural variability, and potential impacts of future climate change.
+
+One widely used proxy is ice cores retrieved from glaciers in Greenland and Antarctica. Ice cores contain layers of compressed snow that trap air bubbles containing samples of the ancient atmosphere, which allows scientists to analyze the concentration of greenhouse gases.
+
+Another important proxy is tree rings. Trees grow by adding a layer of wood each year, forming concentric rings that vary in width depending on environmental conditions. Tree ring data is particularly useful for studying regional climate variations and droughts, but its applicability is limited to regions with suitable tree species and well-defined growth seasons.
+
+Pollen grains preserved in lake sediments and soils offer another valuable proxy for reconstructing past vegetation and climate.
+The interpretation of paleoclimate proxies is not without its challenges.
+
+Paleoclimate proxies provide crucial insights into the workings of the climate system and the natural range of climate variability.

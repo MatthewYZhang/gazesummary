@@ -1,0 +1,7 @@
+Citizen science, or community science, is a rapidly expanding field where the public actively participates in scientific research by collecting data, analyzing samples, and making observations. Its modern form is a relatively recent development, propelled by the internet, mobile technology, and a growing public interest in science.
+
+The rise of citizen science provides researchers with access to vast datasets, such as eBird, which relies on birdwatchers to report sightings, have generated an unparalleled dataset on bird distribution and abundance. Projects like Galaxy Zoo allow volunteers to classify images of galaxies, exceeding the capacity of even the most powerful computers. 
+
+Citizen science offers participants unique educational opportunities. Engaging in real scientific research enables volunteers to develop a deeper understanding of scientific concepts, improve their data collection skills, and gain insights into the scientific process, and it can be particularly valuable for students and can promote scientific literacy.
+
+Citizen science can empower communities to address local environmental concerns. However, citizen science faces challenges, with data quality being a primary concern. Quality control measures, such as training sessions and standardized protocols, are essential. Another challenge lies in maintaining participant engagement. Finally, the ethical implications of citizen science also deserve careful consideration.
