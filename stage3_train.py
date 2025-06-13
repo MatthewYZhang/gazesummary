@@ -98,6 +98,13 @@ model.llm.print_trainable_parameters()
 # (Printing trainable parameters remains the same)
 print("Overall Trainable Parameters:")
 # ... (print loop) ...
+trainable_parameters_total = sum(p.numel() for p in model.parameters() if p.requires_grad)
+total_parameters = sum(p.numel() for p in model.parameters())
+print(f"Total parameters: {total_parameters / 1e6:.2f} M")
+print(f"Trainable parameters: {trainable_parameters_total / 1e6:.2f} M")
+
+
+
 
 # --- Dataset / Trainer ---
 # Pass the main model_config to the dataset constructor
@@ -112,7 +119,7 @@ train_args = TrainingArguments(
     per_device_train_batch_size=1,
     gradient_accumulation_steps=4,
     # max_steps=100, # Increase for actual training
-    epochs=5,
+    num_train_epochs=5,
     learning_rate=2e-5,
     weight_decay=0.01,
     logging_steps=10,
