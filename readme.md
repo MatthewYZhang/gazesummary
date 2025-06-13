@@ -2,7 +2,7 @@
 
 ## Start
 
-Huggingface is enough? check this
+Huggingface is enough? TODO
 
 
 ## Datasets
@@ -33,16 +33,17 @@ Project Structure
 
 ## Steps
 
+Download trained models and adapters from [google drive](https://drive.google.com/file/d/17_myYX4n_2_8LPz4_GjUzyyB5I5GRVDw/view?usp=sharing).
 
 First build datasets. This is already finished for this repo, but in case we need new data.
 
-```python
+```shell
 build_datasets.py
 ```
 
 Then convert the cleaned datasets to training datasets for stage1 and stage 2 and 3.
 
-```python
+```shell
 python stage{}_dataset.py
 ```
 
