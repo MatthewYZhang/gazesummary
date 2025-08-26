@@ -20,28 +20,9 @@
 
 
 
-from transformers import AutoProcessor, AutoModelForCausalLM, AutoModelForVision2Seq
+from transformers import AutoProcessor, AutoModelForVision2Seq
 import torch
-from PIL import Image
-import base64
-import io
 import os # For file path operations and creating a dummy file
-
-def load_image_as_base64(image_path: str) -> str:
-    if not os.path.exists(image_path):
-        print(f"Error: Image file not found at {image_path}")
-        return None
-    try:
-        with open(image_path, "rb") as image_file:
-            # Read the image bytes
-            image_bytes = image_file.read()
-            # Encode the bytes to a base64 string
-            base64_encoded_image = base64.b64encode(image_bytes).decode("utf-8")
-            print(f"Image from {image_path} loaded and base64 encoded.")
-            return base64_encoded_image
-    except Exception as e:
-        print(f"Error loading or encoding image from {image_path}: {e}")
-        return None
 
 def find_subfolders(folder_path):
     subfolders = []
@@ -140,11 +121,11 @@ if __name__ == "__main__":
         image_folder = os.path.join(folder, number)
         text_file = os.path.join(text_folder, f"tofel_{number}.txt")
         png_files = sorted(find_png(image_folder))
+        f = open(text_file, 'r')
+        text = f.read()
+        print(text)
         print(f"Image folder: {image_folder}, Text file: {text_file}, PNG files: {png_files}")
-
-
-
-        text_prompt = "Provide a brief summary of the history of artificial intelligence, focusing on key milestones."
-        response_text_only = generate_text_with_qwen_vl(text_prompt, image_list=png_files)
+        text_prompt = f"Generate a one-paragraph 150-word personalized summary for the following article based on user's gaze heatmap. Bright and warm colors like red or orange mean the user spends more time on it, and dim and cold colors like blue mean the user spends less time on it. A good personalized summary should include more contents that the user spend more time reading and touch other contents briefly. For the content that the user is focused on, a better personalized summary should contain more details and be more consistent with the original statements. More generally, a good summary should be more comprehensive and of better quality. For comprehensiveness, while covering as much of the user's focused topic as possible, a good summary should also touch on other aspects. For quality, please consider four aspects: (1) Consistency - the factual alignment between the summary and the summarized source. (2) Coherence - the collective quality of all sentences. The summary should be well-structured and well-organized. (3) Relevance - selection of important content from the source. (4) Fluency - the quality of individual sentences. Based on this heatmap and text, you should first identify which sentences and paragraphs the user spends more time reading and then generate a personalized summary of this article based on these contents. Do not explain or say any of your analysis."
+        response_text_only = generate_text_with_qwen_vl(text_prompt + "\n\nArticle Text:\n" + text, image_list=png_files)
         print("Generated Response (Text Only):")
         print(response_text_only)
